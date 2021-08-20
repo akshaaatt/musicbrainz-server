@@ -11,70 +11,13 @@ import * as React from 'react';
 
 const FaviconLinks = (): React.Element<typeof React.Fragment> => (
   <>
-    <link
-      href="/static/images/favicons/apple-touch-icon-57x57.png"
-      rel="apple-touch-icon"
-      sizes="57x57"
-    />
-    <link
-      href="/static/images/favicons/apple-touch-icon-60x60.png"
-      rel="apple-touch-icon"
-      sizes="60x60"
-    />
-    <link
-      href="/static/images/favicons/apple-touch-icon-72x72.png"
-      rel="apple-touch-icon"
-      sizes="72x72"
-    />
-    <link
-      href="/static/images/favicons/apple-touch-icon-76x76.png"
-      rel="apple-touch-icon"
-      sizes="76x76"
-    />
-    <link
-      href="/static/images/favicons/apple-touch-icon-114x114.png"
-      rel="apple-touch-icon"
-      sizes="114x114"
-    />
-    <link
-      href="/static/images/favicons/apple-touch-icon-120x120.png"
-      rel="apple-touch-icon"
-      sizes="120x120"
-    />
-    <link
-      href="/static/images/favicons/apple-touch-icon-144x144.png"
-      rel="apple-touch-icon"
-      sizes="144x144"
-    />
-    <link
-      href="/static/images/favicons/apple-touch-icon-152x152.png"
-      rel="apple-touch-icon"
-      sizes="152x152"
-    />
-    <link
-      href="/static/images/favicons/apple-touch-icon-180x180.png"
-      rel="apple-touch-icon"
-      sizes="180x180"
-    />
-    <link
-      href="/static/images/favicons/favicon-32x32.png"
-      rel="icon"
-      sizes="32x32"
-      type="image/png"
-    />
-    <link
-      href="/static/images/favicons/favicon-16x16.png"
-      rel="icon"
-      sizes="16x16"
-      type="image/png"
-    />
-    <link href="/static/images/favicons/site.webmanifest" rel="manifest" />
-    <link
-      color="#bb4890"
-      href="/static/images/favicons/safari-pinned-tab.svg"
-      rel="mask-icon"
-    />
-    <link href="/favicon.ico" rel="shortcut icon" />
+
+      <link rel="apple-touch-icon" sizes="180x180" href="/root/apple-touch-icon.png">
+          <link rel="icon" type="image/png" sizes="32x32" href="/root/favicon-32x32.png">
+              <link rel="icon" type="image/png" sizes="16x16" href="/root/favicon-16x16.png">
+                  <link rel="manifest" href="/root/site.webmanifest">
+
+    <link href="/root/favicon.ico" rel="shortcut icon" />
     <meta content="#f1f1f1" name="msapplication-TileColor" />
     <meta
       content="/static/images/favicons/mstile-144x144.png"
